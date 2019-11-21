@@ -1,0 +1,47 @@
+body {
+    background-image: url(bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+}
+
+.corpo-movel {
+    background-color: #ddd;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 4vh;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+.tree-imgs {
+    border: 1vh solid #f0f0f0;
+    box-sizing: border-box;
+    border-radius: 1vh;
+    width: 60vw;
+    height: 35vw;
+}
+
+.tree-imgs:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.div-descricao-tree {
+    width: auto;
+    text-align: justify;
+    margin-right: 45vw;
+}
+
+.info-box {
+    font-size: 2vh;
+    font-style: italic;
+}
